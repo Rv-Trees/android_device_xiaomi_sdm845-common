@@ -27,6 +27,12 @@ ro.vendor.display.sensortype=2
 # fastbootd
 ro.fastbootd.available=true
 
+# Fling
+ro.vendor.qti.cgroup_follow.enable=true 
+persist.vendor.qti.inputopts.enable=true 
+persist.vendor.qti.inputopts.movetouchslop=0.6 
+ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
+
 # Graphics
 debug.sf.auto_latch_unsignaled=0
 debug.sf.enable_advanced_sf_phase_offset=1
